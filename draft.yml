@@ -1,0 +1,13 @@
+models:
+  Setting:
+    key: string nullable
+    value: text nullable
+
+controllers:
+  Setting:
+    store:
+      validate: key value
+    update:
+      validate: key value
+
+inertia_vue:
